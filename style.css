@@ -40,8 +40,33 @@ img {
 
 /* código omitido */
 /* código omitido */
+ /*cabeçalho* */
+header {
+    background: var(--primary-color);
+    color:white 
+    text-align: center;
+    padding: 20px;
+}
+    header h1 {
+        font-family: var(--font-titulo);
+        ]margin-bottom: 10px;
+    }
 
+    nav ul {
+        list-style: none;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
 /* Responsividade */
+        
 @media (max-width: 768px) {
     .conteudo {
         width: 90%;
@@ -60,5 +85,6 @@ img {
     .cta-button {
         width: 100%;
     }
-}
 
+    
+        
